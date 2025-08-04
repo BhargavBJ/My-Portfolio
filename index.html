@@ -1,66 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhargav B J - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhargav B J - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #f5f5f5;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 300;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #0a0a0a;
+      border-bottom: 1px solid #222;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      border-bottom: 1px solid #111;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #ffffff;
+      font-weight: 700;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #f5f5f5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project, .certification {
+      margin-bottom: 1.5rem;
+    }
+
+    p, li {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    strong {
+      font-weight: 500;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>Bhargav B J</h1>
-        <p>B.Tech | AI & ML Enthusiast | Developer</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Bhargav B J</h1>
+    <p><a href="mailto:bjbhargav60@gmail.com">bjbhargav60@gmail.com</a> | <a href="tel:+918951384555">+91 8951384555</a></p>
+    <p><a href="https://www.linkedin.com/in/bhargav-b-j-01ab36285/" target="_blank">LinkedIn</a> | <a href="https://github.com/BhargavBJ" target="_blank">GitHub</a></p>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A motivated engineering student at Bangalore Institute Of Technology with a strong interest in AI, ML, and software development.</p>
-    </section>
+  <section>
+    <h2>Summary</h2>
+    <p>4th year Information Science student from BIT, Bangalore. Eager to apply technical skills in AI/ML through innovative projects and practical experience. Adept at problem-solving, team collaboration, and fast learning.</p>
+  </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>C, C++, Java, Python</li>
-            <li>Machine Learning, Deep Learning, PyTorch, TensorFlow</li>
-            <li>Data Visualization: Power BI, Tableau</li>
-            <li>SQL, UNIX, Shell Scripting</li>
-        </ul>
-    </section>
+  <section>
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> C, C++, Java, Python</p>
+    <p><strong>AI/ML:</strong> PyTorch, Scikit-learn, Transformers, CNN, Regression Models</p>
+    <p><strong>GenAI:</strong> LangChain, LangGraph, Groq, Llama, Prompt Engineering</p>
+    <p><strong>Data & Tools:</strong> NumPy, Pandas, Tableau, Streamlit, Selenium, Postman, MySQL, MongoDB, UNIX</p>
+    <p><strong>Soft Skills:</strong> Teamwork, Public Speaking, Time Management</p>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Eye Disease Classification</h3>
-            <p>Using CNN and TensorFlow to classify eye diseases (Cataract, Conjunctivitis, etc.).</p>
-        </div>
-        <div class="project">
-            <h3>Hospital Management System</h3>
-            <p>A software to manage hospital operations efficiently.</p>
-        </div>
-        <div class="project">
-            <h3>Snake Game</h3>
-            <p>A classic snake game built with Python.</p>
-        </div>
-        <p>More on <a href="https://github.com/BhargavBJ" target="_blank">GitHub</a></p>
-    </section>
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/BhargavBJ/Literature-Review-Using-Langchain" target="_blank">Literature Review Automation</a></h3>
+      <p>LangChain-powered assistant to summarize and parse scholarly articles using LLMs.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/BhargavBJ/MNIST" target="_blank">Digit Classification</a></h3>
+      <p>Trained CNNs on MNIST dataset for accurate handwritten digit recognition.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/BhargavBJ/Classification-Of-CIFAR10-Dataset" target="_blank">CIFAR-10 Image Classification</a></h3>
+      <p>Image classification using deep CNNs with transfer learning and augmentation.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/BhargavBJ/Eye-Disease-Classification" target="_blank">Eye Disease Detection</a></h3>
+      <p>Fundus image-based eye disease prediction model for medical diagnostics.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/BhargavBJ/GitHub-Auto-Pull-Request-Bot" target="_blank">Auto Pull Request Bot</a></h3>
+      <p>Automates GitHub PR creation to streamline contribution workflows.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/BhargavBJ/Auto-Commit-Bot" target="_blank">Auto Commit Bot</a></h3>
+      <p>Python bot that commits and pushes code changes regularly for automation and backups.</p>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:bjbhargav60@gmail.com">bjbhargav60@gmail.com</a></p>
-        <p>Phone: +91 8951384555</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/bhargav-b-j-01ab36285/" target="_blank">Bhargav B J</a></p>
-    </section>
-
-    <footer>
-        <p>© 2025 Bhargav B J. All rights reserved.</p>
-    </footer>
+  <section>
+    <h2>Certifications & Achievements</h2>
+    <div class="certification">A.I Powered Social Media – 2024</div>
+    <div class="certification">Code Hiest (Intra-college) – 2023</div>
+    <div class="certification">AWS Cloud Computing & Stacking – 2024</div>
+    <div class="certification">MotoGP Burnout Datathon – Participant</div>
+    <div class="certification">Tutedude’s 3-Day Buildathon – Participant</div>
+  </section>
 </body>
+
 </html>
